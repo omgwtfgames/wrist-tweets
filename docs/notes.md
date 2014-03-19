@@ -10,7 +10,7 @@ Development links
 
 * "Twitter API":http://dev.twitter.com/doc
 * The "JTwitter library":http://www.winterwell.com/software/jtwitter.php used in this app.
-** More complete JTwitter OAuth on Android example: http://rajujadhav22.wordpress.com/2010/11/16/post-tweet/
+    * More complete JTwitter OAuth on Android example: http://rajujadhav22.wordpress.com/2010/11/16/post-tweet/
 * StatusNet's "identi.ca Twitter-compatible API":http://status.net/wiki/TwitterCompatibleAPI
 
 ### Java regex for extracting URLs
