@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_update_intervals">
+        <item>Never</item>
+        <item>* Every minute</item>
+        <item>* Every 5 mins</item>
+        <item>Every 15 mins</item>
+        <item>Every 30 mins</item>  
+        <item>Every hour</item>
+        <item>Every 3 hours</item>
+        <item>Every 6 hours</item>
+</string-array>
+
+<string-array name="entryvalues_update_intervals">
+        <item>0</item>
+        <item>60</item>
+        <item>300</item>
+        <item>900</item>
+        <item>1800</item>  
+        <item>3600</item>
+        <item>10800</item>
+        <item>21600</item>
+</string-array>
+
+<string-array name="entries_max_tweets">
+<item>1</item>
+<item>5</item>
+<item>10</item>
+<item>20</item>
+</string-array>
+
+
+
+<string-array name="entryvalues_max_tweets">
+<item>1</item>
+<item>5</item>
+<item>10</item>
+<item>20</item>
+</string-array>
+<string-array name="action_button_mode_messages">
+    <item>Open link to twitter.com 
+    \n(Browser, Plume or official Twitter app)</item>
+    <item>Open first link in tweet text 
+    \n(Browser)</item>
+    <item>Open user profile in Tweetdeck</item>
+    <item>Open user profile in Twidroid Pro</item>
+    <item>Open user profile in Hootsuite</item>
+</string-array>
+<string-array name="action_button_modes">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+</string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wrist Tweets plugin</string>
+    <!-- 
+    	The following strings needs to be defined in order for the Plugin to function.
+    -->
+    <string name="pluginname">Wrist Tweets plugin</string>
+    <string name="intent_preferences">com.sonyericsson.extras.liveview.plugins.wristtweets.PREFERENCES</string>
+    <string name="intent_service">com.sonyericsson.extras.liveview.plugins.wristtweets.WristTweetsService</string>
+    <string name="application_description">Wrist Tweets, a Twitter notification plug-in for Sony Ericsson notifiers.\nFor: LiveView\nExtends:com.sonyericsson.extras.liveview</string>
+<string name="about">About Wrist Tweets</string>
+<string name="about_text">Wrist Tweets is a Twitter(tm) notification app for the Sony LiveView(tm).\n\n
+
+                          Wrist Tweets does it\'s best to be a reliable Twitter notification app. 
+                          It can monitor your timeline, mentions/@replies, direct messages, a Twitter list and will notify you of updates.
+                          Just enter the username, and optionally the name of the list you want to monitor\n
+                          Authentication is done using OAuth, so your password is never stored locally.\n
+                          By default, Wrist Tweets is smart about opening URLs and will open the first URL in 
+                          a tweet when you press the LiveView action button, rather than just 
+                          forwarding to the Twitter page.\n
+                          The Sony LiveView(tm) is innovative but buggy, and will often disconnect. 
+                          This plugin can be set to check for updates each time the LiveView is 
+                          reconnected - this way you are less likely to miss notifications.
+                          \n\n
+                          About Twitter permissions: Although this app is only for receiving and not sending tweets,
+                           it requires Twitters \"Read, Write and Access direct messages\" permission. This is purely so 
+                           it can notify you of direct messages. Unfortunately, Twitters new permissions model 
+                           (as of ~June 2011) does not have an option to Read tweets (including direct messages) 
+                           without also allowing the app to Write (eg Post tweets). So while WristTweet must 
+                           request this permission, it will never post a tweet or mess with your follower list.
+                          \n\n
+                          Legal:\n
+                          Wrist Tweets is available under the MIT license at http://github.com/omgwtfgames/wrist-tweets.
+                          This software uses JTwitter (http://www.winterwell.com/software/jtwitter.php) which is licenced under the LGPL (http://www.gnu.org/licenses/lgpl.html) by Winterwell Associates 2008/2009 and ThinkTank Mathematics Ltd, 2007. 
+                          It also uses the Signpost OAuth library (http://code.google.com/p/oauth-signpost/) under the Apache License, version 2.0, since that\'s what JTwitter likes to use.
+                          It also uses some MIT licensed open source code written by Sony Ericsson as part of the LiveView SDK - kudos to Sony for opening up to third party developers. Keep up the good work !
+                          \n\n\n
+                          Wrist Tweets is copyright Andrew Perry, 2011, 2012.\n 
+                          http://omgwtfgames.com/category/wrist-tweets-plugin \n</string>
+</resources>

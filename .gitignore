@@ -30,3 +30,5 @@ proguard/
 
 # signing key
 *.keystore
+
+releases/*

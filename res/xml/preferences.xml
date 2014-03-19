@@ -1,0 +1,38 @@
+<PreferenceScreen	xmlns:android="http://schemas.android.com/apk/res/android"	
+					android:title="Wrist Tweets plugin">
+	<CheckBoxPreference android:key="pluginEnabled"
+	                	android:title="Enabled"
+	                	android:defaultValue = "false"/><PreferenceCategory android:title="Twitter Account" android:key="account_cat"><EditTextPreference android:key="username" android:title="Twitter username" android:dependency="pluginEnabled" android:summary="Your Twitter username"></EditTextPreference><Preference android:dependency="pluginEnabled" android:key="authenticate" android:title="Login to Twitter" android:summary="A browser will launch so you can authorize this app"></Preference></PreferenceCategory>
+	<PreferenceCategory android:title="Update settings" android:key="update_settings_cat"><ListPreference android:key="updateInterval" android:title="Update Frequency" android:entries="@array/entries_update_intervals" android:entryValues="@array/entryvalues_update_intervals" android:dialogTitle="Select update Interval" android:dependency="pluginEnabled" android:summary="* - frequent updates use more battery" android:defaultValue="900" /><ListPreference android:dependency="pluginEnabled" android:key="max_tweets" android:entries="@array/entries_max_tweets" android:entryValues="@array/entryvalues_max_tweets" android:defaultValue="5" android:title="Maximum tweet notifications" android:summary="Maximum number of tweet notifications at one time (excluding mentions and direct messages)"></ListPreference><ListPreference android:dependency="pluginEnabled" android:title="Action button open link mode" android:key="action_button_mode" android:defaultValue="0" android:summary="Determines what happens when a link is opened with the action button on the LiveView" android:entryValues="@array/action_button_modes" android:entries="@array/action_button_mode_messages"></ListPreference><CheckBoxPreference android:key="update_on_reconnect" android:dependency="pluginEnabled" android:title="Update on LiveView reconnection" android:summary="Check for updates immediately when LiveView is reconnected" android:defaultValue="true"></CheckBoxPreference>
+	
+</PreferenceCategory>
+
+
+
+
+
+
+<PreferenceCategory android:title="Notify on ..." android:key="notifications_cat"><CheckBoxPreference android:key="notify_tweets" android:title="Tweets" android:dependency="pluginEnabled" android:defaultValue="false"></CheckBoxPreference><CheckBoxPreference android:dependency="pluginEnabled" android:defaultValue="true" android:key="notify_mentions" android:title="Mentions"></CheckBoxPreference><CheckBoxPreference android:dependency="pluginEnabled" android:defaultValue="true" android:key="notify_directs" android:title="Direct messages"></CheckBoxPreference><CheckBoxPreference android:key="notify_list" android:title="List" android:dependency="pluginEnabled" android:defaultValue="false"></CheckBoxPreference><EditTextPreference android:key="list" android:summary="You will be notified of tweets on this list" android:dependency="notify_list" android:title="List name"></EditTextPreference>
+</PreferenceCategory>
+
+
+
+<PreferenceCategory android:title="About" android:key="linkout_cat">
+<Preference android:key="about" android:title="@string/about"/>
+<Preference android:key="weblink" android:title="OMG. WTF. GAMES !!1!" android:summary="Wrist Tweets blog posts">
+    <intent android:action="android.intent.action.VIEW" android:data="http://omgwtfgames.com/category/wrist-tweets-plugin/">
+    </intent>
+</Preference>
+
+<Preference android:key="weblink" android:title="Like Wrist Tweets ?" android:summary='Rate us on the Android Market'>
+    <intent android:action="android.intent.action.VIEW" android:data="https://market.android.com/details?id=com.sonyericsson.extras.liveview.plugins.wristtweets">    </intent>
+</Preference>
+    
+</PreferenceCategory>
+
+
+
+
+
+
+</PreferenceScreen>
