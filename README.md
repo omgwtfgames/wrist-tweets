@@ -3,7 +3,7 @@ wrist-tweets
 
 A Twitter notification app for the Sony LiveView.
 
-<img src="https://github.com/omgwtfgames/wrist-tweets/blob/master/docs/screenshots/on_wrist.jpg" alt="Image of Wrist Tweet on the Sony LiveView"/>
+<img src="https://raw.githubusercontent.com/omgwtfgames/wrist-tweets/master/docs/screenshots/on_wrist.jpg" alt="Image of Wrist Tweet on the Sony LiveView"/>
 
 Bloggage: http://omgwtfgames.com/category/wrist-tweets-plugin
 
