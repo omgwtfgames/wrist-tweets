@@ -7,6 +7,8 @@ A Twitter notification app for the Sony LiveView.
 
 Bloggage: http://omgwtfgames.com/category/wrist-tweets-plugin
 
+Some development notes: https://github.com/omgwtfgames/wrist-tweets/blob/master/docs/notes.md
+
 Available on Google Play: https://play.google.com/store/apps/details?id=com.sonyericsson.extras.liveview.plugins.wristtweets
 
 
